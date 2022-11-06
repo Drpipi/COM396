@@ -7,7 +7,7 @@ getOrders <- function(store, newRowList, currentPos, info, params) {
   lookback <- 90
   holddays <- 45
   testlength <- 225
-  
+  print('test')
   if (is.null(store)) {
     store <- initStore(newRowList,params$series)
   } 
